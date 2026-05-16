@@ -1,0 +1,167 @@
+2026-05-06 18:16:37,806 | ERROR | E-Sign | [APPLICATION LIST ERROR] 'UserProfile' object has no attribute 'id'
+2026-05-07 12:15:39,289 | INFO | E-Sign | [GET APPLICATIONS] user=2
+2026-05-07 12:15:39,292 | ERROR | E-Sign | [APPLICATION LIST ERROR] user=2, error='UserProfile' object has no attribute 'id'
+2026-05-07 12:16:58,295 | ERROR | E-Sign | [STATUS ERROR] user=2, app=1, error='UserProfile' object has no attribute 'id'
+2026-05-07 12:17:13,452 | ERROR | E-Sign | [TIMELINE ERROR] user=2, app=1, error='UserProfile' object has no attribute 'id'
+2026-05-07 12:24:14,273 | INFO | E-Sign | [GET APPLICATIONS] user=2
+2026-05-07 12:25:11,690 | INFO | E-Sign | [DOC STATUS REQUEST] user=2, app=1
+2026-05-07 12:25:11,724 | INFO | E-Sign | [KYC REJECTED] app_id=1, doc=SALARY_SLIP
+2026-05-07 12:25:11,724 | INFO | E-Sign | [KYC REJECTED] app_id=1, doc=PAN_CARD
+2026-05-07 12:25:11,724 | INFO | E-Sign | [KYC REJECTED] app_id=1, doc=AADHAAR_FRONT
+2026-05-07 12:25:11,724 | INFO | E-Sign | [KYC REJECTED] app_id=1, doc=BANK_STATEMENT
+2026-05-07 12:25:11,725 | ERROR | E-Sign | [DOC STATUS ERROR] user=2, app=1, error=type object 'LoanApplicationStatus' has no attribute 'VERIFICATION_PENDING'
+2026-05-07 12:33:47,136 | INFO | E-Sign | [DOC STATUS REQUEST] user=2, app=1
+2026-05-07 12:33:47,179 | INFO | E-Sign | [KYC REJECTED] app_id=1, doc=SALARY_SLIP
+2026-05-07 12:33:47,180 | INFO | E-Sign | [KYC REJECTED] app_id=1, doc=PAN_CARD
+2026-05-07 12:33:47,180 | INFO | E-Sign | [KYC REJECTED] app_id=1, doc=AADHAAR_FRONT
+2026-05-07 12:33:47,181 | INFO | E-Sign | [KYC REJECTED] app_id=1, doc=BANK_STATEMENT
+2026-05-07 12:34:13,405 | INFO | E-Sign | [GET NOTIFICATIONS] user=2
+2026-05-07 12:36:04,397 | INFO | E-Sign | [AGREEMENT GENERATE] user=2
+2026-05-07 12:36:04,398 | INFO | E-Sign | [Agreement] Fetching for user_id=2
+2026-05-07 12:36:04,406 | ERROR | E-Sign | [Agreement][ERROR]: 'UserProfile' object has no attribute 'id'
+2026-05-07 12:42:08,610 | INFO | E-Sign | [AGREEMENT GENERATE] user=2
+2026-05-07 12:42:08,611 | INFO | E-Sign | [Agreement] Fetching for user_id=2
+2026-05-07 12:42:08,634 | ERROR | E-Sign | [Agreement][ERROR]: 404: No approved application found
+2026-05-07 12:43:10,893 | INFO | E-Sign | [AGREEMENT GENERATE] user=2
+2026-05-07 12:43:10,894 | INFO | E-Sign | [Agreement] Fetching for user_id=2
+2026-05-07 12:43:10,899 | ERROR | E-Sign | [Agreement][ERROR]: 404: No approved application found
+2026-05-07 12:47:24,234 | INFO | E-Sign | [AGREEMENT GENERATE] user=2
+2026-05-07 12:47:24,235 | INFO | E-Sign | [Agreement] Fetching for user_id=2
+2026-05-07 12:47:24,255 | ERROR | E-Sign | [Agreement][ERROR]: 404: No approved application found
+2026-05-07 12:52:47,033 | INFO | E-Sign | [AGREEMENT GENERATE] user=2
+2026-05-07 12:52:47,034 | INFO | E-Sign | [Agreement] Fetching for user_id=2
+2026-05-07 12:52:47,051 | ERROR | E-Sign | [Agreement][ERROR]: 404: No approved application found
+2026-05-07 12:57:31,155 | ERROR | E-Sign | [VIEW ERROR] lender=4, error=4 validation errors for LenderApplicationListResponse
+reference_number
+  Field required [type=missing, input_value={'application_id': 1, 'us...SUBMITTED: 'SUBMITTED'>}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+approved_amount
+  Field required [type=missing, input_value={'application_id': 1, 'us...SUBMITTED: 'SUBMITTED'>}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+application_status
+  Field required [type=missing, input_value={'application_id': 1, 'us...SUBMITTED: 'SUBMITTED'>}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+submitted_at
+  Field required [type=missing, input_value={'application_id': 1, 'us...SUBMITTED: 'SUBMITTED'>}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-05-07 13:03:14,167 | ERROR | E-Sign | [VIEW ERROR] lender=4, error=3 validation errors for LenderApplicationListResponse
+reference_number
+  Field required [type=missing, input_value={'application_id': 1, 'us...SUBMITTED: 'SUBMITTED'>}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+approved_amount
+  Field required [type=missing, input_value={'application_id': 1, 'us...SUBMITTED: 'SUBMITTED'>}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+application_status
+  Field required [type=missing, input_value={'application_id': 1, 'us...SUBMITTED: 'SUBMITTED'>}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-05-07 13:03:26,242 | ERROR | E-Sign | [VIEW ERROR] lender=4, error=3 validation errors for LenderApplicationListResponse
+reference_number
+  Field required [type=missing, input_value={'application_id': 1, 'us...SUBMITTED: 'SUBMITTED'>}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+approved_amount
+  Field required [type=missing, input_value={'application_id': 1, 'us...SUBMITTED: 'SUBMITTED'>}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+application_status
+  Field required [type=missing, input_value={'application_id': 1, 'us...SUBMITTED: 'SUBMITTED'>}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-05-07 13:11:21,884 | WARNING | E-Sign | [UNAUTHORIZED ACCESS] lender=4, app=1
+2026-05-07 14:04:03,105 | INFO | E-Sign | [AGREEMENT GENERATE] user=2
+2026-05-07 14:04:03,113 | INFO | E-Sign | [Agreement] Fetching for user_id=2
+2026-05-07 14:04:03,143 | INFO | E-Sign | Generating agreement PDF: storage\generated_pdfs\1\agreement_v20260507_083403_1.pdf
+2026-05-07 14:04:03,168 | INFO | E-Sign | [Agreement] Generated successfully for app=1
+2026-05-07 14:04:18,767 | INFO | E-Sign | [ESIGN INIT] user_id=2
+2026-05-07 14:04:18,767 | INFO | E-Sign | [E-SIGN INIT] user_id=2
+2026-05-07 14:05:02,626 | INFO | E-Sign | [ESIGN VERIFY] txn=bb17c6a7868444eb91e34f6ab81e4a0a
+2026-05-07 14:05:02,628 | ERROR | E-Sign | [ESIGN VERIFY ERROR] txn=bb17c6a7868444eb91e34f6ab81e4a0a, error='EsignSession' object has no attribute 'expires_at'
+2026-05-07 14:10:47,375 | INFO | E-Sign | [ESIGN VERIFY] txn=bb17c6a7868444eb91e34f6ab81e4a0a
+2026-05-07 14:10:52,975 | INFO | E-Sign | [ESIGN INIT] user_id=2
+2026-05-07 14:10:52,976 | INFO | E-Sign | [E-SIGN INIT] user_id=2
+2026-05-07 14:17:35,291 | INFO | E-Sign | [ESIGN INIT] user_id=2
+2026-05-07 14:17:35,291 | INFO | E-Sign | [E-SIGN INIT] user_id=2
+2026-05-07 14:17:35,313 | WARNING | E-Sign | [ESIGN RETRY] deleting old session txn=bb17c6a7868444eb91e34f6ab81e4a0a
+2026-05-07 14:18:10,659 | INFO | E-Sign | [ESIGN VERIFY] txn=f96c80b23cd34f66ae4bb4805a7e7aa6
+2026-05-07 14:18:25,489 | INFO | E-Sign | [AGREEMENT GENERATE] user=2
+2026-05-07 14:18:25,489 | INFO | E-Sign | [Agreement] Fetching for user_id=2
+2026-05-07 14:18:25,497 | ERROR | E-Sign | [Agreement][ERROR]: 404: No approved application found
+2026-05-07 14:26:12,383 | INFO | E-Sign | [AGREEMENT GENERATE] user=2
+2026-05-07 14:26:12,384 | INFO | E-Sign | [Agreement] Fetching for user_id=2
+2026-05-07 14:26:12,408 | ERROR | E-Sign | [Agreement][ERROR]: 404: No approved application found. Please get lender approval first.
+2026-05-07 14:39:59,874 | INFO | E-Sign | [AGREEMENT GENERATE] user=2
+2026-05-07 14:39:59,874 | INFO | E-Sign | [Agreement] Fetching for user_id=2
+2026-05-07 14:39:59,911 | ERROR | E-Sign | [Agreement][ERROR]: 'UserProfile' object has no attribute 'id'
+2026-05-07 14:42:15,484 | INFO | E-Sign | [AGREEMENT GENERATE] user=2
+2026-05-07 14:42:15,485 | INFO | E-Sign | [Agreement] Fetching for user_id=2
+2026-05-07 14:42:15,492 | ERROR | E-Sign | [Agreement][ERROR]: 'UserProfile' object has no attribute 'id'
+2026-05-07 14:43:40,177 | INFO | E-Sign | [AGREEMENT GENERATE] user=2
+2026-05-07 14:43:40,177 | INFO | E-Sign | [Agreement] Fetching for user_id=2
+2026-05-07 14:43:40,211 | ERROR | E-Sign | [Agreement][ERROR]: 'UserProfile' object has no attribute 'id'
+2026-05-07 14:49:27,003 | INFO | E-Sign | [AGREEMENT GENERATE] user=2
+2026-05-07 14:49:27,005 | INFO | E-Sign | [Agreement] Fetching for user_id=2
+2026-05-07 14:49:27,012 | INFO | E-Sign | [Agreement DEBUG] user_id=2
+2026-05-07 14:49:27,031 | INFO | E-Sign | [Agreement] Existing agreement found for app=1
+2026-05-07 14:49:42,912 | INFO | E-Sign | [AGREEMENT DOWNLOAD] user=2
+2026-05-07 14:49:42,912 | ERROR | E-Sign | [DOWNLOAD ERROR] user=2, error='AgreementService' object has no attribute 'get_existing_agreement'
+2026-05-07 14:54:31,473 | INFO | E-Sign | [AGREEMENT DOWNLOAD] user=2
+2026-05-07 14:54:31,474 | INFO | E-Sign | [Agreement] Fetch existing agreement user_id=2
+2026-05-07 14:54:31,496 | INFO | E-Sign | [FILE SERVED] user=2, file=D:\Levitica\LSP_Final_1\lsp\storage\generated_pdfs\1\agreement_v20260507_083403_1.pdf
+2026-05-07 15:10:40,562 | INFO | E-Sign | [AGREEMENT DOWNLOAD] user=2
+2026-05-07 15:10:40,563 | INFO | E-Sign | [Agreement] Fetch existing agreement user_id=2
+2026-05-07 15:10:40,589 | INFO | E-Sign | [FILE SERVED] user=2, file=D:\Levitica\LSP_Final_1\lsp\storage\generated_pdfs\1\agreement_v20260507_083403_1.pdf
+2026-05-07 15:17:28,867 | INFO | E-Sign | [AGREEMENT DOWNLOAD] user=2
+2026-05-07 15:17:28,893 | INFO | E-Sign | [Agreement] Fetch existing agreement user_id=2
+2026-05-07 15:17:28,958 | INFO | E-Sign | [FILE SERVED] user=2, file=D:\Levitica\LSP_Final_1\lsp\storage\generated_pdfs\1\agreement_v20260507_083403_1.pdf
+2026-05-07 15:31:49,762 | ERROR | E-Sign | [DISBURSE ERROR] (psycopg2.errors.FeatureNotSupported) FOR UPDATE cannot be applied to the nullable side of an outer join
+
+[SQL: SELECT anon_1.loan_application_id AS anon_1_loan_application_id, anon_1.loan_application_user_profile_id AS anon_1_loan_application_user_profile_id, anon_1.loan_application_eligibility_id AS anon_1_loan_application_eligibility_id, anon_1.loan_application_lender_id AS anon_1_loan_application_lender_id, anon_1.loan_application_lender_name AS anon_1_loan_application_lender_name, anon_1.loan_application_reference_number AS anon_1_loan_application_reference_number, anon_1.loan_application_approved_amount AS anon_1_loan_application_approved_amount, anon_1.loan_application_requested_tenure_months AS anon_1_loan_application_requested_tenure_months, anon_1.loan_application_interest_rate AS anon_1_loan_application_interest_rate, anon_1.loan_application_monthly_emi AS anon_1_loan_application_monthly_emi, anon_1.loan_application_processing_fee AS anon_1_loan_application_processing_fee, anon_1.loan_application_gst_amount AS anon_1_loan_application_gst_amount, anon_1.loan_application_total_repayment AS anon_1_loan_application_total_repayment, anon_1.loan_application_disbursed_amount AS anon_1_loan_application_disbursed_amount, anon_1.loan_application_current_step AS anon_1_loan_application_current_step, anon_1.loan_application_application_status AS anon_1_loan_application_application_status, anon_1.loan_application_payout_status AS anon_1_loan_application_payout_status, anon_1.loan_application_is_submitted AS anon_1_loan_application_is_submitted, anon_1.loan_application_rejection_reason AS anon_1_loan_application_rejection_reason, anon_1.loan_application_lender_decision AS anon_1_loan_application_lender_decision, anon_1.loan_application_lender_decision_at AS anon_1_loan_application_lender_decision_at, anon_1.loan_application_disbursement_attempts AS anon_1_loan_application_disbursement_attempts, anon_1.loan_application_last_disbursement_attempt_at AS anon_1_loan_application_last_disbursement_attempt_at, anon_1.loan_application_created_at AS anon_1_loan_application_created_at, anon_1.loan_application_updated_at AS anon_1_loan_application_updated_at, anon_1.loan_application_submitted_at AS anon_1_loan_application_submitted_at, anon_1.loan_application_reviewed_at AS anon_1_loan_application_reviewed_at, anon_1.loan_application_approved_at AS anon_1_loan_application_approved_at, anon_1.loan_application_rejected_at AS anon_1_loan_application_rejected_at, anon_1.loan_application_disbursed_at AS anon_1_loan_application_disbursed_at, users_1.id AS users_1_id, users_1.username AS users_1_username, users_1.mobile_number AS users_1_mobile_number, users_1.password_hash AS users_1_password_hash, users_1.device_id AS users_1_device_id, users_1.role AS users_1_role, users_1."Created_at" AS "users_1_Created_at", users_1.is_active AS users_1_is_active, users_1.is_verified AS users_1_is_verified, users_1.is_password_locked AS users_1_is_password_locked, users_1.biometric_enabled AS users_1_biometric_enabled, users_1.biometric_type AS users_1_biometric_type, users_1.two_factor_enabled AS users_1_two_factor_enabled, users_1.biometric_key AS users_1_biometric_key, kyc_bank_verifications_1.id AS kyc_bank_verifications_1_id, kyc_bank_verifications_1.user_id AS kyc_bank_verifications_1_user_id, kyc_bank_verifications_1.account_number AS kyc_bank_verifications_1_account_number, kyc_bank_verifications_1.account_holder_name AS kyc_bank_verifications_1_account_holder_name, kyc_bank_verifications_1.bank_name AS kyc_bank_verifications_1_bank_name, kyc_bank_verifications_1.ifsc AS kyc_bank_verifications_1_ifsc, kyc_bank_verifications_1.name_match_percentage AS kyc_bank_verifications_1_name_match_percentage, kyc_bank_verifications_1.status AS kyc_bank_verifications_1_status, kyc_bank_verifications_1.failure_reason AS kyc_bank_verifications_1_failure_reason, kyc_bank_verifications_1.attempt_number AS kyc_bank_verifications_1_attempt_number, kyc_bank_verifications_1.razorpay_contact_id AS kyc_bank_verifications_1_razorpay_contact_id, kyc_bank_verifications_1.razorpay_fund_account_id AS kyc_bank_verifications_1_razorpay_fund_account_id, kyc_bank_verifications_1.razorpay_validation_id AS kyc_bank_verifications_1_razorpay_validation_id, kyc_bank_verifications_1.created_at AS kyc_bank_verifications_1_created_at, kyc_bank_verifications_1.verified_at AS kyc_bank_verifications_1_verified_at, user_profiles_1.user_id AS user_profiles_1_user_id, user_profiles_1.full_name AS user_profiles_1_full_name, user_profiles_1.dob AS user_profiles_1_dob, user_profiles_1.email AS user_profiles_1_email, user_profiles_1.permanent_address AS user_profiles_1_permanent_address, user_profiles_1.temporary_address AS user_profiles_1_temporary_address, user_profiles_1.employment_type AS user_profiles_1_employment_type, user_profiles_1.monthly_income AS user_profiles_1_monthly_income, user_profiles_1.aadhaar_number AS user_profiles_1_aadhaar_number, user_profiles_1.pan_number AS user_profiles_1_pan_number, user_profiles_1.verified_name AS user_profiles_1_verified_name, user_profiles_1.profile_status AS user_profiles_1_profile_status, user_profiles_1.profile_image_url AS user_profiles_1_profile_image_url, user_profiles_1.email_verified AS user_profiles_1_email_verified, user_profiles_1.pan_status AS user_profiles_1_pan_status, user_profiles_1.aadhaar_status AS user_profiles_1_aadhaar_status, user_profiles_1.bank_status AS user_profiles_1_bank_status, user_profiles_1.document_status AS user_profiles_1_document_status, user_profiles_1.kyc_status AS user_profiles_1_kyc_status, user_profiles_1.pan_locked AS user_profiles_1_pan_locked, user_profiles_1.aadhaar_locked AS user_profiles_1_aadhaar_locked, user_profiles_1.dob_locked AS user_profiles_1_dob_locked, user_profiles_1.name_locked AS user_profiles_1_name_locked, user_profiles_1.bank_locked AS user_profiles_1_bank_locked, user_profiles_1.permanent_address_locked AS user_profiles_1_permanent_address_locked, user_profiles_1.pan_verified_at AS user_profiles_1_pan_verified_at, user_profiles_1.aadhaar_verified_at AS user_profiles_1_aadhaar_verified_at, user_profiles_1.bank_verified_at AS user_profiles_1_bank_verified_at, user_profiles_1.created_at AS user_profiles_1_created_at, user_profiles_1.updated_at AS user_profiles_1_updated_at 
+FROM (SELECT loan_application.id AS loan_application_id, loan_application.user_profile_id AS loan_application_user_profile_id, loan_application.eligibility_id AS loan_application_eligibility_id, loan_application.lender_id AS loan_application_lender_id, loan_application.lender_name AS loan_application_lender_name, loan_application.reference_number AS loan_application_reference_number, loan_application.approved_amount AS loan_application_approved_amount, loan_application.requested_tenure_months AS loan_application_requested_tenure_months, loan_application.interest_rate AS loan_application_interest_rate, loan_application.monthly_emi AS loan_application_monthly_emi, loan_application.processing_fee AS loan_application_processing_fee, loan_application.gst_amount AS loan_application_gst_amount, loan_application.total_repayment AS loan_application_total_repayment, loan_application.disbursed_amount AS loan_application_disbursed_amount, loan_application.current_step AS loan_application_current_step, loan_application.application_status AS loan_application_application_status, loan_application.payout_status AS loan_application_payout_status, loan_application.is_submitted AS loan_application_is_submitted, loan_application.rejection_reason AS loan_application_rejection_reason, loan_application.lender_decision AS loan_application_lender_decision, loan_application.lender_decision_at AS loan_application_lender_decision_at, loan_application.disbursement_attempts AS loan_application_disbursement_attempts, loan_application.last_disbursement_attempt_at AS loan_application_last_disbursement_attempt_at, loan_application.created_at AS loan_application_created_at, loan_application.updated_at AS loan_application_updated_at, loan_application.submitted_at AS loan_application_submitted_at, loan_application.reviewed_at AS loan_application_reviewed_at, loan_application.approved_at AS loan_application_approved_at, loan_application.rejected_at AS loan_application_rejected_at, loan_application.disbursed_at AS loan_application_disbursed_at 
+FROM loan_application 
+WHERE loan_application.id = %(id_1)s 
+ LIMIT %(param_1)s FOR UPDATE) AS anon_1 LEFT OUTER JOIN user_profiles AS user_profiles_1 ON anon_1.loan_application_user_profile_id = user_profiles_1.user_id LEFT OUTER JOIN users AS users_1 ON users_1.id = user_profiles_1.user_id LEFT OUTER JOIN kyc_bank_verifications AS kyc_bank_verifications_1 ON user_profiles_1.user_id = kyc_bank_verifications_1.user_id ORDER BY kyc_bank_verifications_1.created_at FOR UPDATE]
+[parameters: {'id_1': 1, 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/tw8g)
+2026-05-07 15:31:49,775 | ERROR | E-Sign | [DISBURSE ERROR] lender=4, app=1, error=(psycopg2.errors.FeatureNotSupported) FOR UPDATE cannot be applied to the nullable side of an outer join
+
+[SQL: SELECT anon_1.loan_application_id AS anon_1_loan_application_id, anon_1.loan_application_user_profile_id AS anon_1_loan_application_user_profile_id, anon_1.loan_application_eligibility_id AS anon_1_loan_application_eligibility_id, anon_1.loan_application_lender_id AS anon_1_loan_application_lender_id, anon_1.loan_application_lender_name AS anon_1_loan_application_lender_name, anon_1.loan_application_reference_number AS anon_1_loan_application_reference_number, anon_1.loan_application_approved_amount AS anon_1_loan_application_approved_amount, anon_1.loan_application_requested_tenure_months AS anon_1_loan_application_requested_tenure_months, anon_1.loan_application_interest_rate AS anon_1_loan_application_interest_rate, anon_1.loan_application_monthly_emi AS anon_1_loan_application_monthly_emi, anon_1.loan_application_processing_fee AS anon_1_loan_application_processing_fee, anon_1.loan_application_gst_amount AS anon_1_loan_application_gst_amount, anon_1.loan_application_total_repayment AS anon_1_loan_application_total_repayment, anon_1.loan_application_disbursed_amount AS anon_1_loan_application_disbursed_amount, anon_1.loan_application_current_step AS anon_1_loan_application_current_step, anon_1.loan_application_application_status AS anon_1_loan_application_application_status, anon_1.loan_application_payout_status AS anon_1_loan_application_payout_status, anon_1.loan_application_is_submitted AS anon_1_loan_application_is_submitted, anon_1.loan_application_rejection_reason AS anon_1_loan_application_rejection_reason, anon_1.loan_application_lender_decision AS anon_1_loan_application_lender_decision, anon_1.loan_application_lender_decision_at AS anon_1_loan_application_lender_decision_at, anon_1.loan_application_disbursement_attempts AS anon_1_loan_application_disbursement_attempts, anon_1.loan_application_last_disbursement_attempt_at AS anon_1_loan_application_last_disbursement_attempt_at, anon_1.loan_application_created_at AS anon_1_loan_application_created_at, anon_1.loan_application_updated_at AS anon_1_loan_application_updated_at, anon_1.loan_application_submitted_at AS anon_1_loan_application_submitted_at, anon_1.loan_application_reviewed_at AS anon_1_loan_application_reviewed_at, anon_1.loan_application_approved_at AS anon_1_loan_application_approved_at, anon_1.loan_application_rejected_at AS anon_1_loan_application_rejected_at, anon_1.loan_application_disbursed_at AS anon_1_loan_application_disbursed_at, users_1.id AS users_1_id, users_1.username AS users_1_username, users_1.mobile_number AS users_1_mobile_number, users_1.password_hash AS users_1_password_hash, users_1.device_id AS users_1_device_id, users_1.role AS users_1_role, users_1."Created_at" AS "users_1_Created_at", users_1.is_active AS users_1_is_active, users_1.is_verified AS users_1_is_verified, users_1.is_password_locked AS users_1_is_password_locked, users_1.biometric_enabled AS users_1_biometric_enabled, users_1.biometric_type AS users_1_biometric_type, users_1.two_factor_enabled AS users_1_two_factor_enabled, users_1.biometric_key AS users_1_biometric_key, kyc_bank_verifications_1.id AS kyc_bank_verifications_1_id, kyc_bank_verifications_1.user_id AS kyc_bank_verifications_1_user_id, kyc_bank_verifications_1.account_number AS kyc_bank_verifications_1_account_number, kyc_bank_verifications_1.account_holder_name AS kyc_bank_verifications_1_account_holder_name, kyc_bank_verifications_1.bank_name AS kyc_bank_verifications_1_bank_name, kyc_bank_verifications_1.ifsc AS kyc_bank_verifications_1_ifsc, kyc_bank_verifications_1.name_match_percentage AS kyc_bank_verifications_1_name_match_percentage, kyc_bank_verifications_1.status AS kyc_bank_verifications_1_status, kyc_bank_verifications_1.failure_reason AS kyc_bank_verifications_1_failure_reason, kyc_bank_verifications_1.attempt_number AS kyc_bank_verifications_1_attempt_number, kyc_bank_verifications_1.razorpay_contact_id AS kyc_bank_verifications_1_razorpay_contact_id, kyc_bank_verifications_1.razorpay_fund_account_id AS kyc_bank_verifications_1_razorpay_fund_account_id, kyc_bank_verifications_1.razorpay_validation_id AS kyc_bank_verifications_1_razorpay_validation_id, kyc_bank_verifications_1.created_at AS kyc_bank_verifications_1_created_at, kyc_bank_verifications_1.verified_at AS kyc_bank_verifications_1_verified_at, user_profiles_1.user_id AS user_profiles_1_user_id, user_profiles_1.full_name AS user_profiles_1_full_name, user_profiles_1.dob AS user_profiles_1_dob, user_profiles_1.email AS user_profiles_1_email, user_profiles_1.permanent_address AS user_profiles_1_permanent_address, user_profiles_1.temporary_address AS user_profiles_1_temporary_address, user_profiles_1.employment_type AS user_profiles_1_employment_type, user_profiles_1.monthly_income AS user_profiles_1_monthly_income, user_profiles_1.aadhaar_number AS user_profiles_1_aadhaar_number, user_profiles_1.pan_number AS user_profiles_1_pan_number, user_profiles_1.verified_name AS user_profiles_1_verified_name, user_profiles_1.profile_status AS user_profiles_1_profile_status, user_profiles_1.profile_image_url AS user_profiles_1_profile_image_url, user_profiles_1.email_verified AS user_profiles_1_email_verified, user_profiles_1.pan_status AS user_profiles_1_pan_status, user_profiles_1.aadhaar_status AS user_profiles_1_aadhaar_status, user_profiles_1.bank_status AS user_profiles_1_bank_status, user_profiles_1.document_status AS user_profiles_1_document_status, user_profiles_1.kyc_status AS user_profiles_1_kyc_status, user_profiles_1.pan_locked AS user_profiles_1_pan_locked, user_profiles_1.aadhaar_locked AS user_profiles_1_aadhaar_locked, user_profiles_1.dob_locked AS user_profiles_1_dob_locked, user_profiles_1.name_locked AS user_profiles_1_name_locked, user_profiles_1.bank_locked AS user_profiles_1_bank_locked, user_profiles_1.permanent_address_locked AS user_profiles_1_permanent_address_locked, user_profiles_1.pan_verified_at AS user_profiles_1_pan_verified_at, user_profiles_1.aadhaar_verified_at AS user_profiles_1_aadhaar_verified_at, user_profiles_1.bank_verified_at AS user_profiles_1_bank_verified_at, user_profiles_1.created_at AS user_profiles_1_created_at, user_profiles_1.updated_at AS user_profiles_1_updated_at 
+FROM (SELECT loan_application.id AS loan_application_id, loan_application.user_profile_id AS loan_application_user_profile_id, loan_application.eligibility_id AS loan_application_eligibility_id, loan_application.lender_id AS loan_application_lender_id, loan_application.lender_name AS loan_application_lender_name, loan_application.reference_number AS loan_application_reference_number, loan_application.approved_amount AS loan_application_approved_amount, loan_application.requested_tenure_months AS loan_application_requested_tenure_months, loan_application.interest_rate AS loan_application_interest_rate, loan_application.monthly_emi AS loan_application_monthly_emi, loan_application.processing_fee AS loan_application_processing_fee, loan_application.gst_amount AS loan_application_gst_amount, loan_application.total_repayment AS loan_application_total_repayment, loan_application.disbursed_amount AS loan_application_disbursed_amount, loan_application.current_step AS loan_application_current_step, loan_application.application_status AS loan_application_application_status, loan_application.payout_status AS loan_application_payout_status, loan_application.is_submitted AS loan_application_is_submitted, loan_application.rejection_reason AS loan_application_rejection_reason, loan_application.lender_decision AS loan_application_lender_decision, loan_application.lender_decision_at AS loan_application_lender_decision_at, loan_application.disbursement_attempts AS loan_application_disbursement_attempts, loan_application.last_disbursement_attempt_at AS loan_application_last_disbursement_attempt_at, loan_application.created_at AS loan_application_created_at, loan_application.updated_at AS loan_application_updated_at, loan_application.submitted_at AS loan_application_submitted_at, loan_application.reviewed_at AS loan_application_reviewed_at, loan_application.approved_at AS loan_application_approved_at, loan_application.rejected_at AS loan_application_rejected_at, loan_application.disbursed_at AS loan_application_disbursed_at 
+FROM loan_application 
+WHERE loan_application.id = %(id_1)s 
+ LIMIT %(param_1)s FOR UPDATE) AS anon_1 LEFT OUTER JOIN user_profiles AS user_profiles_1 ON anon_1.loan_application_user_profile_id = user_profiles_1.user_id LEFT OUTER JOIN users AS users_1 ON users_1.id = user_profiles_1.user_id LEFT OUTER JOIN kyc_bank_verifications AS kyc_bank_verifications_1 ON user_profiles_1.user_id = kyc_bank_verifications_1.user_id ORDER BY kyc_bank_verifications_1.created_at FOR UPDATE]
+[parameters: {'id_1': 1, 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/tw8g)
+2026-05-07 15:42:47,596 | ERROR | E-Sign | [DISBURSE ERROR] type object 'LoanApplicationStatus' has no attribute 'DISBURSEMENT_INITIATED'
+2026-05-07 15:42:47,600 | ERROR | E-Sign | [DISBURSE ERROR] lender=4, app=1, error=type object 'LoanApplicationStatus' has no attribute 'DISBURSEMENT_INITIATED'
+2026-05-07 16:00:02,204 | ERROR | E-Sign | [DISBURSE ERROR] 400: Loan not ready for disbursement. Current status: LOANAPPLICATIONSTATUS.ESIGN_COMPLETED
+2026-05-07 16:06:58,522 | ERROR | E-Sign | [DISBURSE ERROR] Razorpay credentials missing
+2026-05-07 16:06:58,531 | ERROR | E-Sign | [DISBURSE ERROR] lender=4, app=1, error=Razorpay credentials missing
+2026-05-07 16:21:11,321 | ERROR | E-Sign | [DISBURSE ERROR] Razorpay credentials missing
+2026-05-07 16:21:11,325 | ERROR | E-Sign | [DISBURSE ERROR] lender=4, app=1, error=Razorpay credentials missing
+2026-05-07 16:22:50,221 | ERROR | E-Sign | [DISBURSE ERROR] Razorpay credentials missing
+2026-05-07 16:22:50,225 | ERROR | E-Sign | [DISBURSE ERROR] lender=4, app=1, error=Razorpay credentials missing
+2026-05-07 16:41:00,824 | ERROR | E-Sign | [DISBURSE ERROR] Razorpay credentials missing
+2026-05-07 16:41:00,828 | ERROR | E-Sign | [DISBURSE ERROR] lender=4, app=1, error=Razorpay credentials missing
+2026-05-07 16:51:20,271 | INFO | E-Sign | [MOCK PAYOUT] Using test mode
+2026-05-07 16:51:20,278 | ERROR | E-Sign | [DISBURSE ERROR] 'updated_at' is an invalid keyword argument for LoanDisbursement
+2026-05-07 16:51:20,290 | ERROR | E-Sign | [DISBURSE ERROR] lender=4, app=1, error='updated_at' is an invalid keyword argument for LoanDisbursement
+2026-05-07 17:02:48,567 | ERROR | E-Sign | [DISBURSE ERROR] type object 'UserProfile' has no attribute 'id'
+2026-05-07 17:02:48,575 | ERROR | E-Sign | [DISBURSE ERROR] lender=4, app=1, error=type object 'UserProfile' has no attribute 'id'
+2026-05-07 17:05:33,006 | ERROR | E-Sign | [DISBURSE ERROR] 'LoanApplication' object has no attribute 'user_id'
+2026-05-07 17:05:33,012 | ERROR | E-Sign | [DISBURSE ERROR] lender=4, app=1, error='LoanApplication' object has no attribute 'user_id'
+2026-05-07 17:09:10,473 | INFO | E-Sign | [MOCK PAYOUT] Using test mode
+2026-05-07 17:09:10,544 | ERROR | E-Sign | [DISBURSE ERROR] (psycopg2.errors.InvalidTextRepresentation) invalid input value for enum disbursementstatusenum: "PROCESSED"
+LINE 1: ...SET application_status='DISBURSED', payout_status='PROCESSED...
+                                                             ^
+
+[SQL: UPDATE loan_application SET application_status=%(application_status)s, payout_status=%(payout_status)s, updated_at=now(), disbursed_at=%(disbursed_at)s WHERE loan_application.id = %(loan_application_id)s]
+[parameters: {'application_status': 'DISBURSED', 'payout_status': 'PROCESSED', 'disbursed_at': datetime.datetime(2026, 5, 7, 11, 39, 10, 531140), 'loan_application_id': 1}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2026-05-07 17:09:10,549 | ERROR | E-Sign | [DISBURSE ERROR] lender=4, app=1, error=(psycopg2.errors.InvalidTextRepresentation) invalid input value for enum disbursementstatusenum: "PROCESSED"
+LINE 1: ...SET application_status='DISBURSED', payout_status='PROCESSED...
+                                                             ^
+
+[SQL: UPDATE loan_application SET application_status=%(application_status)s, payout_status=%(payout_status)s, updated_at=now(), disbursed_at=%(disbursed_at)s WHERE loan_application.id = %(loan_application_id)s]
+[parameters: {'application_status': 'DISBURSED', 'payout_status': 'PROCESSED', 'disbursed_at': datetime.datetime(2026, 5, 7, 11, 39, 10, 531140), 'loan_application_id': 1}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2026-05-07 19:47:14,089 | ERROR | E-Sign | [DISBURSE ERROR] 400: Loan already disbursed
+2026-05-07 19:58:54,808 | ERROR | E-Sign | [DISBURSE ERROR] 400: Loan already disbursed
+2026-05-07 20:00:38,197 | ERROR | E-Sign | [DISBURSE ERROR] 400: Loan already disbursed
+2026-05-07 20:16:41,893 | ERROR | E-Sign | [DISBURSE ERROR] 400: Loan already disbursed
